@@ -1,13 +1,19 @@
 # UTEC Core Engineering
 
-## Fundamentos de Python
-
 Repositorio de ejercicios prácticos de fundamentos de Python.
+
+## Fundamentos de Python
 
 ### Flujo de control
 
-La carpeta `python_fundamentals/control_flow/` contiene ejercicios de estructuras condicionales y bucles.
+Los ejercicios de flujo de control se encuentran en:
+`python_fundamentals/control_flow/`.
 
-#### Tarea 0: Positivo o negativo
+### Funciones y módulos
 
-El archivo `positive_or_negative.py` genera un número entero aleatorio entre -10 y 10 e indica si es positivo, negativo o cero.
+Los ejercicios de funciones y módulos se encuentran en:
+`python_fundamentals/functions_modules/`.
+
+Estos ejercicios practican la definición de funciones, los valores de retorno,
+la importación de funciones y la protección de la ejecución mediante
+`if __name__ == "__main__":`.
