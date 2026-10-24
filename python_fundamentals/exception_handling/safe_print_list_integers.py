@@ -4,12 +4,11 @@ def safe_print_list_integers(my_list=[], x=0):
 
     for i in range(x):
         try:
-            if not isinstance(my_list[i], int):
-                continue
-            print("{:d}".format(my_list[i]), end="")
-            count += 1
-        except IndexError:
-            break
+            if isinstance(my_list[i], int):
+                print("{:d}".format(my_list[i]), end="")
+                count += 1
+        except TypeError:
+            continue
 
     print()
     return count
