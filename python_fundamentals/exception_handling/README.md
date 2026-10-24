@@ -9,3 +9,4 @@ Este proyecto contiene ejercicios de Python para gestionar errores durante la ej
 2-safe_print_list_integers: imprime los primeros x elementos enteros de una lista, omite los elementos que no son enteros, gestiona los tipos de datos mediante excepciones y devuelve la cantidad de enteros impresos.
 
 3-safe_print_division: divide dos valores dentro de un bloque try, gestiona errores asignando None al resultado, imprime el resultado en finally y devuelve el resultado de la división o None.
+4-raise_exception: lanza explícitamente una excepción TypeError mediante la instrucción raise.
