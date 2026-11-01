@@ -20,3 +20,8 @@ Implementación de validaciones en la clase `Square` para asegurar que el atribu
 
 Implementación del método de instancia `area()` en la clase `Square`, que calcula y devuelve el área del cuadrado elevando al cuadrado la longitud de su atributo privado `__size`. Se conserva la encapsulación y las validaciones establecidas en el ejercicio anterior.
 
+
+## 5. Acceder y actualizar un atributo privado
+
+Implementación de un getter y un setter mediante los decoradores `@property` y `@size.setter` en la clase `Square`. El getter permite consultar el atributo privado `__size`, mientras que el setter permite modificarlo de forma controlada. Se mantienen las validaciones para asegurar que el tamaño sea un número entero mayor o igual que cero, lanzando `TypeError` o `ValueError` cuando corresponda. También se conserva el método `area()` para calcular el área utilizando el tamaño actualizado.
+
