@@ -40,3 +40,8 @@ Implementación del método especial `__str__()` en la clase `Square` para contr
 
 Creación de la clase `Rectangle` para representar un rectángulo mediante dos atributos de instancia privados: `__width` (ancho) y `__height` (alto). Se implementan getters y setters utilizando `@property` para consultar y modificar ambos atributos de forma controlada. Los setters validan que los valores sean números enteros mayores o iguales que cero, lanzando excepciones `TypeError` o `ValueError` cuando no se cumplen las condiciones. El constructor `__init__` permite establecer el ancho y el alto, ambos con un valor predeterminado de cero.
 
+
+## 9. Área y perímetro
+
+Implementación de los métodos de instancia `area()` y `perimeter()` en la clase `Rectangle`. El método `area()` calcula y devuelve el área del rectángulo multiplicando el ancho `__width` por el alto `__height`. El método `perimeter()` calcula y devuelve el perímetro sumando dos veces ambas dimensiones. Si el ancho o el alto es igual a cero, el perímetro devuelve cero. Se conservan los atributos privados, getters, setters y validaciones implementados en el ejercicio anterior.
+
