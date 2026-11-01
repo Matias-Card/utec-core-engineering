@@ -25,3 +25,8 @@ Implementación del método de instancia `area()` en la clase `Square`, que calc
 
 Implementación de un getter y un setter mediante los decoradores `@property` y `@size.setter` en la clase `Square`. El getter permite consultar el atributo privado `__size`, mientras que el setter permite modificarlo de forma controlada. Se mantienen las validaciones para asegurar que el tamaño sea un número entero mayor o igual que cero, lanzando `TypeError` o `ValueError` cuando corresponda. También se conserva el método `area()` para calcular el área utilizando el tamaño actualizado.
 
+
+## 6. Imprimir un cuadrado
+
+Implementación del método de instancia público `my_print()` en la clase `Square`, que imprime un cuadrado utilizando el carácter `#`. La cantidad de filas y columnas depende del valor del atributo privado `__size`. Si el tamaño es igual a cero, no se imprime ningún carácter. Se conservan los getters, setters, las validaciones y el método `area()` de los ejercicios anteriores.
+
