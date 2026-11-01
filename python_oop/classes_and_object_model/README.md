@@ -30,3 +30,8 @@ Implementación de un getter y un setter mediante los decoradores `@property` y 
 
 Implementación del método de instancia público `my_print()` en la clase `Square`, que imprime un cuadrado utilizando el carácter `#`. La cantidad de filas y columnas depende del valor del atributo privado `__size`. Si el tamaño es igual a cero, no se imprime ningún carácter. Se conservan los getters, setters, las validaciones y el método `area()` de los ejercicios anteriores.
 
+
+## 7. Imprimir la instancia cuadrada
+
+Implementación del método especial `__str__()` en la clase `Square` para controlar la representación textual de sus objetos. Se agrega el atributo privado `__position`, junto con su getter y setter, permitiendo establecer y consultar la posición del cuadrado mediante una tupla de dos enteros no negativos. El método `my_print()` imprime el cuadrado utilizando el carácter `#` y respetando los espacios horizontales y verticales definidos por la posición. También se conserva el comportamiento de impresión cuando el tamaño es igual a cero, además de los métodos y validaciones de los ejercicios anteriores.
+
