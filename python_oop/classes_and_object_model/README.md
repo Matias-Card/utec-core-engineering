@@ -35,3 +35,8 @@ Implementación del método de instancia público `my_print()` en la clase `Squa
 
 Implementación del método especial `__str__()` en la clase `Square` para controlar la representación textual de sus objetos. Se agrega el atributo privado `__position`, junto con su getter y setter, permitiendo establecer y consultar la posición del cuadrado mediante una tupla de dos enteros no negativos. El método `my_print()` imprime el cuadrado utilizando el carácter `#` y respetando los espacios horizontales y verticales definidos por la posición. También se conserva el comportamiento de impresión cuando el tamaño es igual a cero, además de los métodos y validaciones de los ejercicios anteriores.
 
+
+## 8. Clase Rectángulo
+
+Creación de la clase `Rectangle` para representar un rectángulo mediante dos atributos de instancia privados: `__width` (ancho) y `__height` (alto). Se implementan getters y setters utilizando `@property` para consultar y modificar ambos atributos de forma controlada. Los setters validan que los valores sean números enteros mayores o iguales que cero, lanzando excepciones `TypeError` o `ValueError` cuando no se cumplen las condiciones. El constructor `__init__` permite establecer el ancho y el alto, ambos con un valor predeterminado de cero.
+
