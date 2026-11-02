@@ -21,3 +21,5 @@ la importación de funciones y la protección de la ejecución mediante
 ## 2-rectangle: amplía la clase `Rectangle`, implementa el cálculo del área mediante el método `area()` y define `__str__()` para mostrar las dimensiones del rectángulo con el formato `[Rectangle] <width>/<height>`.
 
 ## 1-square: crea una clase `Square` que hereda de `Rectangle`, valida el tamaño mediante `integer_validator()`, almacena el tamaño como atributo privado e inicializa el ancho y la altura con el mismo valor.
+
+## 2-square: amplía la clase `Square` e implementa el método `__str__()` para mostrar la descripción del cuadrado con el formato `[Square] <width>/<height>`.
